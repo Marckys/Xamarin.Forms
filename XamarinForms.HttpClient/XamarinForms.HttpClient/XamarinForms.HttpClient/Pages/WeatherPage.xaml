@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XamarinForms.HttpClient.Pages.WeatherPage">
+
+  <StackLayout>
+      <Label Text="Barcelona Temperature:" VerticalOptions="Center" HorizontalOptions="Center"  Font="Bold, Large"/>
+	    <Label Text="{Binding Temp}" VerticalOptions="Center" HorizontalOptions="Center"  Font="Bold, 60"/>
+    </StackLayout>
+  
+</ContentPage>
